@@ -1,6 +1,5 @@
 package io.github.leeyj.gatewayPart2.inbound;
 
-import io.github.kimmking.gateway.inbound.HttpInboundHandler;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
