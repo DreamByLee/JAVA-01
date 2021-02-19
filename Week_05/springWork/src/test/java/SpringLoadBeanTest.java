@@ -7,6 +7,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+/**
+ * bean装配测试
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 //@ContextConfiguration(classes = AutoLoadConfig.class)  //自动装配
 @ContextConfiguration(classes = OpenLoadConfig.class)    //显式装配
