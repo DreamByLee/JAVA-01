@@ -30,7 +30,7 @@ CREATE TABLE `customer`  (
   `createTime` datetime(0) NULL DEFAULT NULL COMMENT '创建时间',
   `updateTime` datetime(0) NULL DEFAULT NULL COMMENT '修改时间',
   PRIMARY KEY (`cuatomerId`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '用户信息表\r\n' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '用户信息表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Table structure for goodsinfo
