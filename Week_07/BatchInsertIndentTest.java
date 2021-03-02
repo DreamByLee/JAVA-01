@@ -1,12 +1,6 @@
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.datasource.DataSourceUtils;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.junit4.SpringRunner;
-
-import javax.sql.DataSource;
 import java.sql.*;
 
 /**
@@ -15,8 +9,7 @@ import java.sql.*;
  */
 public class BatchInsertIndentTest {
 
-    @Autowired
-    private JdbcTemplate jdbcTemplate;
+
 
     private String url = "jdbc:mysql://localhost:3306/week06?rewriteBatchedStatements=true";
     private String user ="root";
@@ -66,13 +59,5 @@ public class BatchInsertIndentTest {
             }
         }
     }
-
-    @Test
-    public void testJdbcTempLate() throws SQLException {
-        Connection conn = jdbcTemplate.getDataSource().getConnection();
-
-        System.out.println(conn);
-    }
-
 
 }
