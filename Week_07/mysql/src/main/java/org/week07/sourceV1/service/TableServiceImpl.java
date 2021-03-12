@@ -6,6 +6,7 @@ import org.week07.sourceV1.dao.TableMapper;
 import org.week07.sourceV1.entity.TableBean;
 
 import java.util.List;
+import java.util.Random;
 
 /**
  * @author Leeyj
@@ -19,5 +20,13 @@ public class TableServiceImpl implements TableService {
     @Override
     public List<TableBean> findAll() {
         return tableMapper.selectAll();
+    }
+
+    @Override
+    public Integer addInfo(TableBean tableBean) {
+        Random ra =new Random();
+        tableBean.setId(ra.nextInt(100)+1);
+        tableMapper.insertInfo(tableBean);
+        return tableBean.getId();
     }
 }

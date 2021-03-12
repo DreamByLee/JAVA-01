@@ -7,4 +7,6 @@ import java.util.List;
 public interface TableMapper {
 
     List<TableBean> selectAll();
+
+    boolean insertInfo(TableBean tableBean);
 }

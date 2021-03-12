@@ -35,8 +35,9 @@ public class AppTest
     @Test
     @DataSource(value = "master")
     public void testMaster() {
-        List<TableBean> tableBean = tableService.findAll();
-        System.out.println("Master=>"+tableBean);
+        TableBean tableBean = new TableBean();
+        Integer result = tableService.addInfo(tableBean);
+        System.out.println("Master insert id=>"+result);
     }
 
     @Test
