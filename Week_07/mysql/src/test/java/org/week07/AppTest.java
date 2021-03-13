@@ -52,7 +52,9 @@ public class AppTest
     public void testShardingshere() {
         TableBean tableBean = new TableBean();
         Integer result = tableService.addInfo(tableBean);
+        System.out.println(result);
         List<TableBean> tableBeans = tableService.findAll();
+        System.out.println(tableBeans);
 
     }
 }
