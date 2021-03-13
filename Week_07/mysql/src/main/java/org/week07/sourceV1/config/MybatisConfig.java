@@ -57,7 +57,7 @@ public class MybatisConfig {
         sessionFactory.setDataSource(dynamicDataSource());
         sessionFactory.setTypeAliasesPackage("org.week07.sourceV1.entity");    // 扫描entity
         PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-        sessionFactory.setMapperLocations(resolver.getResources("classpath*:**/sqlmap/*.xml"));    // 扫描映射文件
+        sessionFactory.setMapperLocations(resolver.getResources("classpath*:mapper/*.xml"));    // 扫描映射文件
         return sessionFactory;
     }
 
