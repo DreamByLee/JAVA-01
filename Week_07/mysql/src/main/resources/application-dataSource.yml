@@ -12,3 +12,6 @@ spring:
       jdbcUrl: jdbc:mysql://127.0.0.1:3337/db?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&useSSL=true&characterEncoding=utf-8
       username: root
       password:
+  mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

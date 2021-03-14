@@ -69,12 +69,12 @@
       <artifactId>lombok</artifactId>
       <version>1.18.12</version>
     </dependency>
-    <dependency>
+  <!--  <dependency>
       <groupId>org.apache.shardingsphere</groupId>
       <artifactId>shardingsphere-jdbc-core-spring-boot-starter</artifactId>
       <version>5.0.0-alpha</version>
     </dependency>
-    <!--<dependency>
+    <dependency>
       <groupId>org.apache.shardingsphere</groupId>
       <artifactId>shardingsphere-jdbc-core</artifactId>
       <version>5.0.0-alpha</version>

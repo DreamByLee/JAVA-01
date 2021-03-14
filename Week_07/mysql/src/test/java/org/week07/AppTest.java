@@ -2,7 +2,6 @@ package org.week07;
 
 import static org.junit.Assert.assertTrue;
 
-import javafx.scene.control.Tab;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,15 +45,5 @@ public class AppTest
     public void testSlave() {
         List<TableBean> tableBean = tableService.findAll();
         System.out.println("Slave=>"+tableBean);
-    }
-
-    @Test
-    public void testShardingshere() {
-        TableBean tableBean = new TableBean();
-        Integer result = tableService.addInfo(tableBean);
-        System.out.println(result);
-        List<TableBean> tableBeans = tableService.findAll();
-        System.out.println(tableBeans);
-
     }
 }
