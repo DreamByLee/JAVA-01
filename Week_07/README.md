@@ -2,7 +2,7 @@
 
 Q1：按自己设计的表结构，插入100万订单模拟数据，测试不同方式的插入效率
 
-PreparedStatement批量插入，测试耗时12秒6
+PreparedStatement批量插入，测试耗时12秒6(设置rewriteBatchedStatements=true时，批量提交速度显著提升，=false时非常慢)
 
 csv文件导入，测试耗时1分21秒
 
