@@ -8,4 +8,7 @@ csv文件导入，测试耗时1分21秒
 
 运行sql文件，测试耗时1分55秒
 
+Q2:实现读写分离1.0&2.0
+V1.0,mysql项目下的test
+V2.0,shardingsphere项目下的test
 
