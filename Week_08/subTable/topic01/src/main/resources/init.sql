@@ -14,6 +14,9 @@
  Date: 17/03/2021 16:29:22
 */
 
+CREATE SCHEMA db_mall_0;
+CREATE SCHEMA db_mall_1;
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
