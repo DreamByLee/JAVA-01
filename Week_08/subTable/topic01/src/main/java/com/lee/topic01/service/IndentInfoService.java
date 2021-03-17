@@ -2,6 +2,7 @@ package com.lee.topic01.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.lee.topic01.entity.IndentInfo;
+import com.sun.xml.internal.bind.v2.runtime.output.IndentingUTF8XmlOutput;
 
 import java.util.List;
 
@@ -19,7 +20,7 @@ public interface IndentInfoService extends IService<IndentInfo> {
      * @param indentId
      * @return
      */
-    boolean rmIndent(Integer indentId);
+    boolean rmIndent(IndentInfo indentInfo);
 
     /**
      * 修改订单
@@ -32,5 +33,5 @@ public interface IndentInfoService extends IService<IndentInfo> {
      * 查询订单
      * @return
      */
-    List<IndentInfo> queryIndent();
+    List<IndentInfo> queryIndent(IndentInfo indentInfo);
 }

@@ -5,7 +5,6 @@ import com.lee.topic01.service.IndentInfoService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
 import java.util.Date;
 import java.util.List;
 
@@ -17,38 +16,43 @@ class Topic01ApplicationTests {
 
     @Test
     public void testAdd() {
-        IndentInfo indentInfo = new IndentInfo();
-        indentInfo.setCustomerId(12);
-        indentInfo.setIndentPrice(0.01 + 12);
-        indentInfo.setPayTime(new Date());
-        indentInfo.setPayType(1);
-        indentInfoService.saveIndent(indentInfo);
-        /*for (int i = 0; i < 32; i++) {
+
+        for (int i = 0; i < 500; i++) {
+            IndentInfo indentInfo = new IndentInfo();
             indentInfo.setCustomerId(i);
             indentInfo.setIndentPrice(0.01 + i);
             indentInfo.setPayTime(new Date());
             indentInfo.setPayType(i);
             indentInfoService.saveIndent(indentInfo);
-        }*/
+        }
     }
 
+    /**
+     * 用户ID和订单ID 可任选其一或多选，两个ID都传时sql语句命中越精确
+     */
     @Test
     public void testDel() {
         IndentInfo indentInfo = new IndentInfo();
-        indentInfoService.rmIndent(1234343);
+        indentInfo.setCustomerId(18);
+        indentInfo.setIndentId(1372177663207809025L);
+        indentInfoService.rmIndent(indentInfo);
     }
 
     @Test
     public void testUpdate() {
         IndentInfo indentInfo = new IndentInfo();
         indentInfo.setIndentPrice(99.98);
-        indentInfo.setIndentId(1L);
+        indentInfo.setIndentId(1372177665690836993L);
         indentInfoService.upIndent(indentInfo);
     }
 
     @Test
     public void testSelect() {
-        List<IndentInfo> indentInfos = indentInfoService.queryIndent();
+        IndentInfo indentInfo = new IndentInfo();
+        indentInfo.setIndentId(1372177663140700161L);
+        indentInfo.setCustomerId(15);
+        List<IndentInfo> indentInfos = indentInfoService.queryIndent(indentInfo);
+        System.out.println(indentInfos);
     }
 
 }

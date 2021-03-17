@@ -1,5 +1,6 @@
 package com.lee.topic01.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lee.topic01.entity.IndentInfo;
@@ -21,8 +22,11 @@ public class IndentInfoServiceImpl extends ServiceImpl<IndentMapper,IndentInfo> 
     }
 
     @Override
-    public boolean rmIndent(Integer indentId) {
-        return baseMapper.deleteById(indentId) == 0 ? false : true;
+    public boolean rmIndent(IndentInfo indentInfo) {
+        Integer status =  baseMapper.delete(new LambdaQueryWrapper<IndentInfo>()
+                .eq(IndentInfo::getIndentId, indentInfo.getIndentId())
+                .eq(IndentInfo::getCustomerId,indentInfo.getCustomerId()));
+        return status == 0 ? false : true;
     }
 
     @Override
@@ -31,8 +35,11 @@ public class IndentInfoServiceImpl extends ServiceImpl<IndentMapper,IndentInfo> 
     }
 
     @Override
-    public List<IndentInfo> queryIndent() {
-        return baseMapper.selectList(Wrappers.<IndentInfo>lambdaQuery());
+    public List<IndentInfo> queryIndent(IndentInfo indentInfo) {
+        return baseMapper.selectList(new LambdaQueryWrapper<IndentInfo>()
+                .eq(IndentInfo::getIndentId,indentInfo.getIndentId())
+                .eq(IndentInfo::getCustomerId,indentInfo.getCustomerId())
+        );
     }
 
 }
