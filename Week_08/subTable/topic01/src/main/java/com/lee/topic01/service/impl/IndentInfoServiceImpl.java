@@ -6,7 +6,10 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lee.topic01.entity.IndentInfo;
 import com.lee.topic01.mapper.IndentMapper;
 import com.lee.topic01.service.IndentInfoService;
+import org.apache.shardingsphere.transaction.annotation.ShardingTransactionType;
+import org.apache.shardingsphere.transaction.core.TransactionType;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -40,6 +43,13 @@ public class IndentInfoServiceImpl extends ServiceImpl<IndentMapper,IndentInfo> 
                 .eq(IndentInfo::getIndentId,indentInfo.getIndentId())
                 .eq(IndentInfo::getCustomerId,indentInfo.getCustomerId())
         );
+    }
+
+    @Transactional
+    @ShardingTransactionType(TransactionType.XA)
+    @Override
+    public void saveIndentXA(List<IndentInfo> indentInfos) {
+        super.saveBatch(indentInfos);
     }
 
 }

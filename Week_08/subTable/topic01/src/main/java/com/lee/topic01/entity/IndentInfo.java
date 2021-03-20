@@ -26,5 +26,5 @@ public class IndentInfo {
     private Integer customerId;
     private Double indentPrice;
     private Date payTime;
-    private Integer payType;
+    private String payType;
 }

@@ -34,4 +34,10 @@ public interface IndentInfoService extends IService<IndentInfo> {
      * @return
      */
     List<IndentInfo> queryIndent(IndentInfo indentInfo);
+
+    /**
+     * xa事务保存订单
+     * @param indentInfos
+     */
+    void saveIndentXA(List<IndentInfo> indentInfos);
 }

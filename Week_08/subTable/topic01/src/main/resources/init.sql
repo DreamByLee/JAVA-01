@@ -1,19 +1,3 @@
-/*
- Navicat Premium Data Transfer
-
- Source Server         : db
- Source Server Type    : MySQL
- Source Server Version : 50718
- Source Host           : localhost:3306
- Source Schema         : db_mall_0
-
- Target Server Type    : MySQL
- Target Server Version : 50718
- File Encoding         : 65001
-
- Date: 17/03/2021 16:29:22
-*/
-
 CREATE SCHEMA db_mall_0;
 CREATE SCHEMA db_mall_1;
 
