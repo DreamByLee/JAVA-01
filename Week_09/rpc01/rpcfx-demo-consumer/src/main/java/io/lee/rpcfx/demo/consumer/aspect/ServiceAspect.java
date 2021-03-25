@@ -1,4 +1,4 @@
-package io.lee.rpcfx.aspect;
+package io.lee.rpcfx.demo.consumer.aspect;
 
 import io.lee.rpcfx.annotation.Service;
 import io.lee.rpcfx.client.Rpcfx;
@@ -16,7 +16,7 @@ import java.lang.reflect.Field;
 @Component
 @Aspect
 public class ServiceAspect {
-    @Before("execution(* io.lee.rpcfx.demo.consumer.service.*.*(..))")
+    @Before("execution(* io.lee.rpcfx.demo.consumer.controller.*.*(..))")
     public void requestLimit(JoinPoint joinPoint) throws Exception {
         Object target = joinPoint.getTarget();
         Field[] fields = target.getClass().getDeclaredFields();

@@ -1,5 +1,6 @@
 package io.lee.rpcfx.demo.consumer;
 
+import io.lee.rpcfx.annotation.Service;
 import io.lee.rpcfx.api.Filter;
 import io.lee.rpcfx.api.LoadBalancer;
 import io.lee.rpcfx.api.Router;
@@ -9,7 +10,6 @@ import io.lee.rpcfx.demo.api.Order;
 import io.lee.rpcfx.demo.api.OrderService;
 import io.lee.rpcfx.demo.api.User;
 import io.lee.rpcfx.demo.api.UserService;
-import io.lee.rpcfx.demo.consumer.service.ClientServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -29,6 +29,7 @@ public class RpcfxClientApplication {
 		// UserService service = new xxx();
 		// service.findById
 
+		//netty client
 		UserService userService = Rpcfx.create(UserService.class, "http://localhost:8081/");
 		User user = userService.findById(1);
 		System.out.println("find user id=1 from server: " + user.getName());
@@ -39,7 +40,8 @@ public class RpcfxClientApplication {
 
 		//
 //		UserService userService2 = Rpcfx.createFromRegistry(UserService.class, "localhost:2181", new TagRouter(), new RandomLoadBalancer(), new CuicuiFilter());
-//		SpringApplication.run(RpcfxClientApplication.class, args);
+		SpringApplication.run(RpcfxClientApplication.class, args);
+
 	}
 
 	private static class TagRouter implements Router {
