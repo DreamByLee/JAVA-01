@@ -5,7 +5,6 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
 import io.lee.rpcfx.api.RpcfxRequest;
 import io.lee.rpcfx.api.RpcfxResolver;
 import io.lee.rpcfx.api.RpcfxResponse;
-import io.lee.rpcfx.exception.RpcfxException;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -39,9 +38,8 @@ public class RpcfxInvoker {
 
             // 2.封装一个统一的RpcfxException
             // 客户端也需要判断异常
-            RpcfxException rpcfxException = new RpcfxException(e.getLocalizedMessage() , 500);
             e.printStackTrace();
-            response.setException(rpcfxException);
+            response.setException(e);
             response.setStatus(false);
             return response;
         }

@@ -9,7 +9,9 @@ import io.lee.rpcfx.demo.api.Order;
 import io.lee.rpcfx.demo.api.OrderService;
 import io.lee.rpcfx.demo.api.User;
 import io.lee.rpcfx.demo.api.UserService;
+import io.lee.rpcfx.demo.consumer.service.ClientServiceImpl;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
@@ -27,17 +29,16 @@ public class RpcfxClientApplication {
 		// UserService service = new xxx();
 		// service.findById
 
-		UserService userService = Rpcfx.create(UserService.class, "http://localhost:8080/");
+		UserService userService = Rpcfx.create(UserService.class, "http://localhost:8081/");
 		User user = userService.findById(1);
 		System.out.println("find user id=1 from server: " + user.getName());
 
-		OrderService orderService = Rpcfx.create(OrderService.class, "http://localhost:8080/");
+		/*OrderService orderService = Rpcfx.create(OrderService.class, "http://localhost:8081/");
 		Order order = orderService.findOrderById(1992129);
-		System.out.println(String.format("find order name=%s, amount=%f",order.getName(),order.getAmount()));
+		System.out.println(String.format("find order name=%s, amount=%f",order.getName(),order.getAmount()));*/
 
 		//
-		UserService userService2 = Rpcfx.createFromRegistry(UserService.class, "localhost:2181", new TagRouter(), new RandomLoadBalancer(), new CuicuiFilter());
-
+//		UserService userService2 = Rpcfx.createFromRegistry(UserService.class, "localhost:2181", new TagRouter(), new RandomLoadBalancer(), new CuicuiFilter());
 //		SpringApplication.run(RpcfxClientApplication.class, args);
 	}
 
