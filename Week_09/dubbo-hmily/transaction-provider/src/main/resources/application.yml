@@ -1,0 +1,81 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: transaction-provider
+  mybatis-plus:
+    mapper-locations: classpath:mappers/*.xml
+  shardingsphere:
+    datasource:
+      common:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: root
+        password: 123
+      names: ds0,ds1
+      ds0:
+        jdbc-url: jdbc:mysql://localhost:3306/db_mall_0?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=CTT
+      ds1:
+        jdbc-url: jdbc:mysql://localhost:3306/db_mall_1?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=CTT
+    rules:
+      # 配置分⽚规则
+      sharding:
+        tables:
+          account:
+            actual-data-nodes: ds$->{0..1}.account
+            # 配置分库策略
+            database-strategy:
+              standard:
+                sharding-column: customer_id
+                sharding-algorithm-name: database-inline
+            key-generate-strategy:
+              column: id
+              key-generator-name: snowflake
+          freeze:
+            actual-data-nodes: ds$->{0..1}.freeze
+            # 配置分库策略
+            database-strategy:
+              standard:
+                sharding-column: customer_id
+                sharding-algorithm-name: database-inline
+            key-generate-strategy:
+              column: id
+              key-generator-name: snowflake
+        sharding-algorithms:
+          database-inline:
+            type: INLINE
+            props:
+              algorithm-expression: ds$->{customer_id % 2}
+        key-generators:
+          snowflake:
+            type: SNOWFLAKE
+            props:
+              worker-id: 0
+    props:
+      sql-show: true
+
+
+dubbo:
+  scan:
+    base-packages: com.example.demo.service
+  protocol:
+    name: dubbo
+    port: 12345
+  registry:
+    address: zookeeper://localhost:2181
+  metadata-report:
+    address: zookeeper://localhost:2181
+  application:
+    qosEnable: true
+    qosPort: 22222
+    qosAcceptForeignIp: true
+    qos-enable-compatible: true
+    qos-host-compatible: localhost
+    qos-port-compatible: 22222
+    qos-accept-foreign-ip-compatible: true
+    qos-host: localhost
+
+hmily:
+  support:
+    rpc:
+      annotation: true

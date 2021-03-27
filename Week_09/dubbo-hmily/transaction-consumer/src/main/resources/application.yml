@@ -1,0 +1,19 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: transaction-consumer
+  main:
+    allow-bean-definition-overriding: true
+dubbo:
+  scan:
+    base-packages: com.example.demo
+  registry:
+    address: zookeeper://localhost:2181
+  metadata-report:
+    address: zookeeper://localhost:2181
+
+hmily:
+  support:
+    rpc:
+      annotation: true
