@@ -48,4 +48,15 @@ CREATE TABLE `freeze`  (
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '冻结记录表' ROW_FORMAT = Dynamic;
 
+INSERT INTO db_mall_1.account(`id`, `user_id`, `currency`, `balance`)
+VALUES
+	(1, 1, 'CNY', 100.0000),
+	(2, 1, 'USD', 100.0000);
+
+
+INSERT INTO db_mall_0.account(`id`, `user_id`, `currency`, `balance`)
+VALUES
+	(3, 2, 'CNY', 100.0000),
+	(4, 2, 'USD', 100.0000);
+
 SET FOREIGN_KEY_CHECKS = 1;
