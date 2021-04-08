@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72bca225-cee5-4207-9732-be803c037238" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/nio02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_03/nio02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_04/ThreadDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_04/ThreadDemo/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_04/ThreadDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_04/ThreadDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_04/ThreadDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_04/ThreadDemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_04/ThreadDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_alibaba_fastjson_1_2_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_openjfx_javafx_base_linux_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_openjfx_javafx_base_mac_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_05/springWork/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/mysql/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/mysql/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/mysql/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/mysql/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/mysql/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/mysql/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/mysql/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/target/classes/MAT-INF/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/target/classes/mapper/TableMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/target/classes/org/work/ShardingsphereApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/target/classes/org/work/week07/dao/TableMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/target/classes/org/work/week07/entity/TableBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/target/classes/org/work/week07/service/TableService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/target/classes/org/work/week07/service/impl/TableServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_07/shardingsphere/target/test-classes/org/work/week07/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_08/subTable/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_08/subTable/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_08/subTable/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_08/subTable/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_08/subTable/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/.idea/dubbo-hmily.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_google_guava_guava_27_0_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_squareup_okio_okio_1_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_buffer_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_codec_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_common_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_handler_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_resolver_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_transport_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_34_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_apache_curator_curator_client_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_apache_curator_curator_framework_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_asynchttpclient_async_http_client_2_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_asynchttpclient_async_http_client_netty_utils_2_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_spring_aop_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_spring_beans_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_spring_context_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_spring_core_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_spring_expression_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_spring_test_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_spring_web_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_09/rpc01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/config/MessageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/entity/IndentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/publisher/IndentPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/service/IndentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/subscribe/IndentSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubsub_order/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisLock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/src/main/java/com/lee/redis/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/src/main/java/com/lee/redis/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/src/main/java/com/lee/redis/RedisLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/src/main/java/com/lee/redis/SubStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRedisLock/src/test/java/com/lee/redis/RedisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_03/nio02/src/main/java/io/github/leeyj/gatewayPart1/HttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_03/nio02/src/main/java/io/github/leeyj/gatewayPart1/HttpHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_04/多线程并发编程.emmx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_04/多线程并发编程.emmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/springWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_05/springWork/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_05/springWork/springWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_05/springWork/springWork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_07/BatchInsertIndentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_05/springWork/src/test/java/BatchInsertIndentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_08/subTable/topic01/src/main/java/com/lee/topic01/service/IndentInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_08/subTable/topic01/src/main/java/com/lee/topic01/service/IndentInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/transaction-consumer/src/main/java/com/example/demo/ExchangeContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_09/dubbo-hmily/transaction-consumer/src/main/java/com/example/demo/ExchangeContoller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\Softwear\apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\Softwear\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1qpbrQCS9fqufZ0CuzWswBGPmoG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../dengjin/Week_11/week11class2work5_redis_pub_sub" />
+    <property name="settings.editor.selected.configurable" value="reactor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Study\GeekTime\GeekTime-JAVA\HomeWork\JAVA-01\Week_11\redisLock\pubsub_order\src\main\java\com\example\demo\entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SubStock">
+    <configuration name="SubStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lee.redis.SubStock" />
+      <module name="simpleRedisLock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lee.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pubsub_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pubsub_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pubsub_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.testIndent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pubsub_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="testIndent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pubsub_order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simpleRedisLock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lee.redis.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SubStock" />
+        <item itemvalue="JUnit.DemoApplicationTests.testIndent" />
+        <item itemvalue="JUnit.DemoApplicationTests (2)" />
+        <item itemvalue="JUnit.DemoApplicationTests (1)" />
+        <item itemvalue="JUnit.DemoApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72bca225-cee5-4207-9732-be803c037238" name="Default Changelist" comment="" />
+      <created>1617779677960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617779677960</updated>
+      <workItem from="1617779679577" duration="6827000" />
+      <workItem from="1617787284474" duration="4059000" />
+      <workItem from="1617888401723" duration="4386000" />
+      <workItem from="1617893031141" duration="1429000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/subscribe/IndentSubscriber.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/config/MessageConfig.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/publisher/IndentPublisher.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pubsub_order/src/main/java/com/example/demo/subscribe/IndentSubscriber.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
